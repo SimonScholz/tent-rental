@@ -1,0 +1,77 @@
+== Creating the project
+
+[source, console]
+----
+npx create-react-app tent-rental --typescript
+----
+
+== Adding dependencies
+
+=== Routing
+
+Installing:
+
+[source, console]
+----
+npm i react-router react-router-dom @types/react-router @types/react-router-dom
+----
+
+Usage:
+
+[source, JavaScript ]
+----
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+...
+
+<BrowserRouter>
+    <main className="container">
+    <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/about" component={About} />
+    </Switch>
+    </main>
+</BrowserRouter>
+
+...
+
+----
+
+NOTE: The <BrowserRouter> tag is supposed to be the root.
+
+
+=== Styling
+
+Install Bootstrap: https://react-bootstrap.netlify.com/
+
+[source, console]
+----
+npm i bootstrap react-bootstrap react-router-bootstrap @types/react-bootstrap @types/react-router-bootstrap
+----
+
+After installing Bootstrap simply import the css.
+
+[source,JavaScript]
+----
+import "bootstrap/dist/css/bootstrap.min.css";
+----
+
+Bootstrap Classes are also provided as JSX Components.
+
+[source,JavaScript]
+----
+import React from "react";
+import Container from "react-bootstrap/Container";
+
+const Home: React.FC = () => {
+  return (
+    <Container>
+      <h1>Hello tent renters</h1>
+    </Container>
+  );
+};
+
+export default Home;
+----
+
+TIP: To see more Component examples see: https://react-bootstrap.netlify.com/components/alerts/
