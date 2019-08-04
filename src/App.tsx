@@ -5,6 +5,8 @@ import About from "./components/About";
 import Requests from "./components/Request";
 import Container from "react-bootstrap/Container";
 import Navbar from "./components/Navbar";
+import Faq from "./components/Faq";
+import Calendar from "./components/Calendar";
 
 const App: React.FC = () => {
   return (
@@ -15,6 +17,8 @@ const App: React.FC = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/request" component={Requests} />
+          <Route exact path="/faq" component={Faq} />
+          <Route exact path="/calendar" component={Calendar} />
         </Switch>
       </Container>
     </BrowserRouter>
