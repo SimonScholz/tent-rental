@@ -17,6 +17,7 @@ const App: React.FC = () => {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/tent-rental" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/request" component={Requests} />
           <Route exact path="/impressions" component={Impressions} />
