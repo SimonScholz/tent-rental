@@ -1,12 +1,14 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import Requests from "./components/Request";
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Requests from "./components/pages/Request";
 import Container from "react-bootstrap/Container";
 import Navbar from "./components/Navbar";
-import Faq from "./components/Faq";
-import Calendar from "./components/Calendar";
+import Faq from "./components/pages/Faq";
+import Calendar from "./components/pages/Calendar";
+import NoMatch from "./components/pages/NoMatch";
+import Impressions from "./components/pages/Impressions";
 
 const App: React.FC = () => {
   return (
@@ -17,8 +19,10 @@ const App: React.FC = () => {
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/request" component={Requests} />
+          <Route exact path="/impressions" component={Impressions} />
           <Route exact path="/faq" component={Faq} />
           <Route exact path="/calendar" component={Calendar} />
+          <Route exact component={NoMatch} />
         </Switch>
       </Container>
     </BrowserRouter>

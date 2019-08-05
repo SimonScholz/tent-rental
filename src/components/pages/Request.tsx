@@ -3,8 +3,8 @@ import { Button, Form, Container } from "react-bootstrap";
 
 const Requests: React.FC = () => {
   return (
-    <Container>
-      <h2>Equipment ausleihen</h2>
+    <Container className="mt-3">
+      <h2>Buchen</h2>
       <Form>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Name</Form.Label>
@@ -15,7 +15,7 @@ const Requests: React.FC = () => {
           <Form.Control type="text" placeholder="Telefon Nr. (Optional)" />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="info" type="submit">
           Absenden
         </Button>
       </Form>

@@ -1,3 +1,12 @@
+= Running the project
+
+[source, console]
+----
+npm start
+----
+
+= Developer Notes
+
 == Creating the project
 
 [source, console]
@@ -46,7 +55,7 @@ Install Bootstrap: https://react-bootstrap.netlify.com/
 
 [source, console]
 ----
-npm i bootstrap react-bootstrap react-router-bootstrap @types/react-bootstrap @types/react-router-bootstrap
+npm i bootstrap react-bootstrap react-router-bootstrap styled-components @types/react-bootstrap @types/react-router-bootstrap @types/styled-components
 ----
 
 After installing Bootstrap simply import the css.
@@ -75,3 +84,44 @@ export default Home;
 ----
 
 TIP: To see more Component examples see: https://react-bootstrap.netlify.com/components/alerts/
+
+== Deployment
+
+=== GitHub Pages
+
+Run a production build:
+
+[source, console]
+----
+npm run build
+----
+
+Add `"homepage" : "http://myname.github.io/myapp"` to the _package.json_ file.
+
+Again run production build:
+
+[source, console]
+----
+npm run build
+----
+
+Install gh-pages
+
+[source, console]
+----
+npm i --save-dev gh-pages
+----
+
+And add the following to the _package.json_ file.
+
+[source, json]
+----
+// ...
+"scripts": {
+  // ...
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+----
+
+And now to deploy the website run `npm run deloy`.
