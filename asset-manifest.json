@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/tent-rental/static/js/main.efd65c63.chunk.js",
+    "main.js.map": "/tent-rental/static/js/main.efd65c63.chunk.js.map",
+    "runtime~main.js": "/tent-rental/static/js/runtime~main.5ac5a35b.js",
+    "runtime~main.js.map": "/tent-rental/static/js/runtime~main.5ac5a35b.js.map",
+    "static/css/2.266e55a5.chunk.css": "/tent-rental/static/css/2.266e55a5.chunk.css",
+    "static/js/2.988bfd5e.chunk.js": "/tent-rental/static/js/2.988bfd5e.chunk.js",
+    "static/js/2.988bfd5e.chunk.js.map": "/tent-rental/static/js/2.988bfd5e.chunk.js.map",
+    "index.html": "/tent-rental/index.html",
+    "precache-manifest.c7401bc1173b0c9cee4f9d079605d232.js": "/tent-rental/precache-manifest.c7401bc1173b0c9cee4f9d079605d232.js",
+    "service-worker.js": "/tent-rental/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/tent-rental/static/css/2.266e55a5.chunk.css.map",
+    "static/media/impression1.jpeg": "/tent-rental/static/media/impression1.2810ba82.jpeg",
+    "static/media/impression2.jpeg": "/tent-rental/static/media/impression2.83af1e25.jpeg",
+    "static/media/impression3.jpeg": "/tent-rental/static/media/impression3.49cd630d.jpeg",
+    "static/media/tent-lampignons.png": "/tent-rental/static/media/tent-lampignons.06b35cbb.png"
+  }
+}
