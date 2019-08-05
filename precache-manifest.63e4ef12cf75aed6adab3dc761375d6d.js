@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab331885f63a7b9206761a8ff3e0f8a2",
+    "revision": "a4ed116d20996f95ae947cd809ce25e5",
     "url": "/tent-rental/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tent-rental/static/js/2.988bfd5e.chunk.js"
   },
   {
-    "revision": "1e034f08f62a7908e62f",
-    "url": "/tent-rental/static/js/main.efd65c63.chunk.js"
+    "revision": "4b6fd9749b93768d1058",
+    "url": "/tent-rental/static/js/main.379bf14c.chunk.js"
   },
   {
     "revision": "51f020ae5ccf44dda4ef",
