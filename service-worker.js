@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tent-rental/precache-manifest.e46141abd1ce5cf4e5d4e14a1dcdfd60.js"
+  "/tent-rental/precache-manifest.a6d101b1a50a6769326c8146c5d776e7.js"
 );
 
 self.addEventListener('message', (event) => {
