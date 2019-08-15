@@ -7,7 +7,6 @@ import Container from "react-bootstrap/Container";
 import Navbar from "./components/Navbar";
 import Faq from "./components/pages/Faq";
 import Calendar from "./components/pages/Calendar";
-import NoMatch from "./components/pages/NoMatch";
 import Impressions from "./components/pages/Impressions";
 
 const App: React.FC = () => {
@@ -17,13 +16,12 @@ const App: React.FC = () => {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/tent-rental" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/request" component={Requests} />
           <Route exact path="/impressions" component={Impressions} />
           <Route exact path="/faq" component={Faq} />
           <Route exact path="/calendar" component={Calendar} />
-          <Route exact component={NoMatch} />
+          <Route exact component={Home} />
         </Switch>
       </Container>
     </BrowserRouter>
