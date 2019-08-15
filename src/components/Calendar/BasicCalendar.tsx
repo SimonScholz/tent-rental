@@ -2,10 +2,11 @@ import React from "react";
 import { Calendar, DateLocalizer } from "react-big-calendar";
 import events from "./events";
 import styled from "styled-components";
+import "react-big-calendar/lib/css/react-big-calendar.css";
 
 const Styles = styled.div`
   .min-height {
-    height: "100vh";
+    height: 70vh;
   }
 `;
 
@@ -25,15 +26,23 @@ const BasicCalendar: React.FC<BasicCalendarProps> = props => {
   return (
     <Styles>
       <Calendar
+        views={{ month: true, agenda: true }}
         events={events}
         step={60}
         showMultiDayTimes
-        defaultDate={new Date(2019, 1, 8)}
+        defaultDate={new Date()}
         components={{
           timeSlotWrapper: ColoredDateCellWrapper
         }}
         localizer={localizer}
+        messages={{
+          today: "Heute",
+          previous: "Zurück",
+          next: "Weiter",
+          month: "Monat"
+        }}
         className="min-height"
+        min={new Date()}
       />
     </Styles>
   );
