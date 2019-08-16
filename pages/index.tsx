@@ -1,11 +1,12 @@
 import React from "react";
-import HomeJumbotron from "../HomeJumbotron";
-import PriceCard from "../PriceCard";
+import HomeJumbotron from "../src/components/HomeJumbotron";
+import PriceCard from "../src/components/PriceCard";
 import { Row, Col } from "react-bootstrap";
+import Layout from "../src/components/Layout";
 
 const Home: React.FC = () => {
   return (
-    <React.Fragment>
+    <Layout>
       <HomeJumbotron />
       <Row>
         <Col className="lg-4">
@@ -30,7 +31,7 @@ const Home: React.FC = () => {
           />
         </Col>
       </Row>
-    </React.Fragment>
+    </Layout>
   );
 };
 

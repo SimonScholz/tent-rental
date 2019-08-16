@@ -2,7 +2,6 @@ import React from "react";
 import { Calendar, DateLocalizer } from "react-big-calendar";
 import events from "./events";
 import styled from "styled-components";
-import "react-big-calendar/lib/css/react-big-calendar.css";
 
 const Styles = styled.div`
   .min-height {

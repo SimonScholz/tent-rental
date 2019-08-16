@@ -1,12 +1,10 @@
 import React from "react";
 import { Jumbotron, Button } from "react-bootstrap";
 import styled from "styled-components";
-import tentImg from "../assets/tent-lampignons.png";
-import { LinkContainer } from "react-router-bootstrap";
 
 const Styles = styled.div`
   .jumbo {
-    background: url(${tentImg}) no-repeat;
+    background: url("../static/tent-lampignons.png") no-repeat;
     background-size: cover;
     color: #000;
   }
@@ -21,9 +19,7 @@ const HomeJumbotron = () => (
         Party-Equipment mieten.
       </p>
       <p>
-        <LinkContainer to="/request">
-          <Button variant="info">Wünschtermin anmelden!</Button>
-        </LinkContainer>
+        <Button variant="info">Wünschtermin anmelden!</Button>
       </p>
     </Jumbotron>
   </Styles>

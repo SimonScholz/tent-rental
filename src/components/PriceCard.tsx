@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { LinkContainer } from "react-router-bootstrap";
 import { Card, Container, Button } from "react-bootstrap";
 
 const Styles = styled.div`
@@ -94,11 +93,9 @@ const PriceCard: React.FC<PriceCardProps> = props => {
                 </li>
               ))}
             </ul>
-            <LinkContainer to="/request">
-              <Button className="btn btn-block btn-info text-uppercase">
-                Buchen
-              </Button>
-            </LinkContainer>
+            <Button className="btn btn-block btn-info text-uppercase">
+              Buchen
+            </Button>
           </Card.Body>
         </Card>
       </Container>

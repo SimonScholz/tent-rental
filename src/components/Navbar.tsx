@@ -1,34 +1,34 @@
 import React from "react";
 import { Navbar as NBar, Nav } from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
+import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
     <NBar bg="info" expand="lg" className="navbar-dark">
-      <LinkContainer to="/">
+      <Link href="/" passHref>
         <NBar.Brand>Zeltverleih Ohlsen</NBar.Brand>
-      </LinkContainer>
+      </Link>
       <NBar.Toggle aria-controls="basic-navbar-nav" />
       <NBar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <LinkContainer to="/">
+          <Link href="/" passHref>
             <Nav.Link>Home</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/impressions">
+          </Link>
+          <Link href="/impressions" passHref>
             <Nav.Link>Impressionen</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/calendar">
+          </Link>
+          <Link href="/calendar" passHref>
             <Nav.Link>Kalender</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/request">
+          </Link>
+          <Link href="/request" passHref>
             <Nav.Link>Buchen</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/about">
+          </Link>
+          <Link href="/about" passHref>
             <Nav.Link>Über uns</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/faq">
+          </Link>
+          <Link href="/faq" passHref>
             <Nav.Link>FAQ</Nav.Link>
-          </LinkContainer>
+          </Link>
         </Nav>
       </NBar.Collapse>
     </NBar>
