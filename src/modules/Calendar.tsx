@@ -1,4 +1,3 @@
-import "react-big-calendar/lib/css/react-big-calendar.css";
 import "moment/locale/de";
 import React from "react";
 import { Container } from "react-bootstrap";
