@@ -2,12 +2,6 @@ const now = new Date();
 
 export default [
   {
-    id: 0,
-    title: "Heute",
-    start: new Date(new Date().setHours(new Date().getHours() - 3)),
-    end: new Date(new Date().setHours(new Date().getHours() + 3))
-  },
-  {
     id: 2,
     title: "Gebucht!",
     start: new Date(2019, 7, 24, 0, 0, 0),

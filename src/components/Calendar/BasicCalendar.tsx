@@ -17,7 +17,7 @@ interface BasicCalendarProps {
 const ColoredDateCellWrapper = ({ children }: any) =>
   React.cloneElement(React.Children.only(children), {
     style: {
-      backgroundColor: "lightblue"
+      backgroundColor: "info"
     }
   });
 
@@ -26,7 +26,7 @@ const BasicCalendar: React.FC<BasicCalendarProps> = props => {
   return (
     <Styles>
       <Calendar
-        views={{ month: true, agenda: true }}
+        views={{ month: true }}
         events={events}
         step={60}
         showMultiDayTimes
