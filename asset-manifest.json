@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/tent-rental/static/js/main.dcf8ba87.chunk.js",
-    "main.js.map": "/tent-rental/static/js/main.dcf8ba87.chunk.js.map",
+    "main.js": "/tent-rental/static/js/main.99f71212.chunk.js",
+    "main.js.map": "/tent-rental/static/js/main.99f71212.chunk.js.map",
     "runtime-main.js": "/tent-rental/static/js/runtime-main.22b94f63.js",
     "runtime-main.js.map": "/tent-rental/static/js/runtime-main.22b94f63.js.map",
     "static/css/2.3785f652.chunk.css": "/tent-rental/static/css/2.3785f652.chunk.css",
     "static/js/2.f9cfdbb0.chunk.js": "/tent-rental/static/js/2.f9cfdbb0.chunk.js",
     "static/js/2.f9cfdbb0.chunk.js.map": "/tent-rental/static/js/2.f9cfdbb0.chunk.js.map",
     "index.html": "/tent-rental/index.html",
-    "precache-manifest.3a47bbb2256945aecc647df708b85b52.js": "/tent-rental/precache-manifest.3a47bbb2256945aecc647df708b85b52.js",
+    "precache-manifest.5c043d86bd59f0314e57c29d2313ed68.js": "/tent-rental/precache-manifest.5c043d86bd59f0314e57c29d2313ed68.js",
     "service-worker.js": "/tent-rental/service-worker.js",
     "static/css/2.3785f652.chunk.css.map": "/tent-rental/static/css/2.3785f652.chunk.css.map",
     "static/js/2.f9cfdbb0.chunk.js.LICENSE": "/tent-rental/static/js/2.f9cfdbb0.chunk.js.LICENSE",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.22b94f63.js",
     "static/css/2.3785f652.chunk.css",
     "static/js/2.f9cfdbb0.chunk.js",
-    "static/js/main.dcf8ba87.chunk.js"
+    "static/js/main.99f71212.chunk.js"
   ]
 }
