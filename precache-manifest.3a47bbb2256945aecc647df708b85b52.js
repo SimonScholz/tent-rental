@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15f62163360f7e9cc8623098ed016904",
+    "revision": "b1f280ea209e04ec3e74bf64aa4bcfd9",
     "url": "/tent-rental/index.html"
   },
   {
-    "revision": "abffe8b7cf7daaa9ba4c",
-    "url": "/tent-rental/static/css/2.43771318.chunk.css"
+    "revision": "215c911424198bf7a07a",
+    "url": "/tent-rental/static/css/2.3785f652.chunk.css"
   },
   {
-    "revision": "abffe8b7cf7daaa9ba4c",
-    "url": "/tent-rental/static/js/2.686fdad9.chunk.js"
+    "revision": "215c911424198bf7a07a",
+    "url": "/tent-rental/static/js/2.f9cfdbb0.chunk.js"
   },
   {
-    "revision": "b8c35b22d28b064d338c",
-    "url": "/tent-rental/static/js/main.50b2d9e7.chunk.js"
+    "revision": "54d43f5ccaea50614fd60281adc195ad",
+    "url": "/tent-rental/static/js/2.f9cfdbb0.chunk.js.LICENSE"
   },
   {
-    "revision": "51f020ae5ccf44dda4ef",
-    "url": "/tent-rental/static/js/runtime~main.5ac5a35b.js"
+    "revision": "929e87945fefbccffeff",
+    "url": "/tent-rental/static/js/main.dcf8ba87.chunk.js"
+  },
+  {
+    "revision": "27a3185c278ec7f46c0e",
+    "url": "/tent-rental/static/js/runtime-main.22b94f63.js"
   },
   {
     "revision": "2810ba82a77fc9fafb5275978c9a6861",

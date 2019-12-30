@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.js": "/tent-rental/static/js/main.50b2d9e7.chunk.js",
-    "main.js.map": "/tent-rental/static/js/main.50b2d9e7.chunk.js.map",
-    "runtime~main.js": "/tent-rental/static/js/runtime~main.5ac5a35b.js",
-    "runtime~main.js.map": "/tent-rental/static/js/runtime~main.5ac5a35b.js.map",
-    "static/css/2.43771318.chunk.css": "/tent-rental/static/css/2.43771318.chunk.css",
-    "static/js/2.686fdad9.chunk.js": "/tent-rental/static/js/2.686fdad9.chunk.js",
-    "static/js/2.686fdad9.chunk.js.map": "/tent-rental/static/js/2.686fdad9.chunk.js.map",
+    "main.js": "/tent-rental/static/js/main.dcf8ba87.chunk.js",
+    "main.js.map": "/tent-rental/static/js/main.dcf8ba87.chunk.js.map",
+    "runtime-main.js": "/tent-rental/static/js/runtime-main.22b94f63.js",
+    "runtime-main.js.map": "/tent-rental/static/js/runtime-main.22b94f63.js.map",
+    "static/css/2.3785f652.chunk.css": "/tent-rental/static/css/2.3785f652.chunk.css",
+    "static/js/2.f9cfdbb0.chunk.js": "/tent-rental/static/js/2.f9cfdbb0.chunk.js",
+    "static/js/2.f9cfdbb0.chunk.js.map": "/tent-rental/static/js/2.f9cfdbb0.chunk.js.map",
     "index.html": "/tent-rental/index.html",
-    "precache-manifest.370fd44d38f678a34384c3bcc5dbd52d.js": "/tent-rental/precache-manifest.370fd44d38f678a34384c3bcc5dbd52d.js",
+    "precache-manifest.3a47bbb2256945aecc647df708b85b52.js": "/tent-rental/precache-manifest.3a47bbb2256945aecc647df708b85b52.js",
     "service-worker.js": "/tent-rental/service-worker.js",
-    "static/css/2.43771318.chunk.css.map": "/tent-rental/static/css/2.43771318.chunk.css.map",
+    "static/css/2.3785f652.chunk.css.map": "/tent-rental/static/css/2.3785f652.chunk.css.map",
+    "static/js/2.f9cfdbb0.chunk.js.LICENSE": "/tent-rental/static/js/2.f9cfdbb0.chunk.js.LICENSE",
     "static/media/impression1.jpeg": "/tent-rental/static/media/impression1.2810ba82.jpeg",
     "static/media/impression2.jpeg": "/tent-rental/static/media/impression2.83af1e25.jpeg",
     "static/media/impression3.jpeg": "/tent-rental/static/media/impression3.49cd630d.jpeg",
     "static/media/tent-lampignons.png": "/tent-rental/static/media/tent-lampignons.06b35cbb.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.22b94f63.js",
+    "static/css/2.3785f652.chunk.css",
+    "static/js/2.f9cfdbb0.chunk.js",
+    "static/js/main.dcf8ba87.chunk.js"
+  ]
 }
