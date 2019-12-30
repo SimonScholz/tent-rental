@@ -22,7 +22,7 @@ const HomeJumbotron = () => (
       </p>
       <p>
         <LinkContainer to="/request">
-          <Button variant="info">Wünschtermin anmelden!</Button>
+          <Button variant="info">Wunschtermin anmelden!</Button>
         </LinkContainer>
       </p>
     </Jumbotron>
